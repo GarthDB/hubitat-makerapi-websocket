@@ -1,32 +1,32 @@
 {
-  "name": "basic-template",
-  "version": "0.0.0-development",
-  "description": "",
+  "name": "hubitat-makerapi-websocket",
+  "version": "0.1.0",
+  "description": "A node library that uses the Maker API on the Hubitat to control devices and the events websocket to quickly register changes.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "jest",
-    "test-watch": "jest --runInBand --watch",
+    "test": "ava",
+    "test-watch": "ava --watch",
     "pre-commit": "lint-staged",
-    "prepare": "husky install",
-    "semantic-release": "semantic-release"
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/GarthDB/node-basic-template.git"
+    "url": "https://github.com/GarthDB/hubitat-makerapi-websocket.git"
   },
   "author": "Garth Braithwaite <garthdb@gmail.com> (http://garthdb.com/)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/GarthDB/node-basic-template/issues"
+    "url": "https://github.com/GarthDB/hubitat-makerapi-websocket/issues"
   },
-  "homepage": "https://github.com/GarthDB/node-basic-template#readme",
+  "homepage": "https://github.com/GarthDB/hubitat-makerapi-websocket#readme",
   "devDependencies": {
-    "@commitlint/cli": "^17.1.2",
-    "@commitlint/config-conventional": "^17.1.0",
-    "husky": "^8.0.1",
-    "jest": "^29.1.1",
-    "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1",
-    "semantic-release": "^19.0.5"
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "ava": "^5.3.1",
+    "fetch-mock": "^9.11.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3"
   }
 }

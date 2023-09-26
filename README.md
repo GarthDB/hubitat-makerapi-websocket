@@ -1,4 +1,4 @@
-![tests workflow](https://github.com/GarthDB/node-basic-template/actions/workflows/test.yml/badge.svg)
+![tests workflow](https://github.com/GarthDB/hubitat-makerapi-websocket/actions/workflows/test.yml/badge.svg)
 
 # Template project
 
